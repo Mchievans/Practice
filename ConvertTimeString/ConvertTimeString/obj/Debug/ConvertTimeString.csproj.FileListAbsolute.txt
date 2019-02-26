@@ -1,0 +1,7 @@
+C:\Users\Malachi-admin\Documents\Coding Practice\Practice\ConvertTimeString\ConvertTimeString\bin\Debug\ConvertTimeString.exe.config
+C:\Users\Malachi-admin\Documents\Coding Practice\Practice\ConvertTimeString\ConvertTimeString\bin\Debug\ConvertTimeString.exe
+C:\Users\Malachi-admin\Documents\Coding Practice\Practice\ConvertTimeString\ConvertTimeString\bin\Debug\ConvertTimeString.pdb
+C:\Users\Malachi-admin\Documents\Coding Practice\Practice\ConvertTimeString\ConvertTimeString\obj\Debug\ConvertTimeString.csprojAssemblyReference.cache
+C:\Users\Malachi-admin\Documents\Coding Practice\Practice\ConvertTimeString\ConvertTimeString\obj\Debug\ConvertTimeString.csproj.CoreCompileInputs.cache
+C:\Users\Malachi-admin\Documents\Coding Practice\Practice\ConvertTimeString\ConvertTimeString\obj\Debug\ConvertTimeString.exe
+C:\Users\Malachi-admin\Documents\Coding Practice\Practice\ConvertTimeString\ConvertTimeString\obj\Debug\ConvertTimeString.pdb
