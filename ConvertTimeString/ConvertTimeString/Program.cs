@@ -20,11 +20,11 @@ namespace ConvertTimeString
             //Console.WriteLine(OriginTime);
             string[] OriginArrays = OriginTime.Split(new char[] { ':', ' ' }, 3);
 
-            getTime(OriginArrays);
+            GetTime(OriginArrays);
          
         }
 
-        private static void getTime(string [] OriginArrays)
+        private static void GetTime(string [] OriginArrays)
         {
             if (OriginArrays[0] == "12" && OriginArrays[2] == "am")
             {
@@ -48,6 +48,8 @@ namespace ConvertTimeString
                 else
                     Console.WriteLine($"{OriginArrays[0] + OriginArrays[1]}");
             }
+
+            //CHANGE TO accept 
         }
     }
 }
