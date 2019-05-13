@@ -1,0 +1,28 @@
+﻿@model EntityFrameWork.Models.Lunchbox
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lunchbox</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="p-2">
+    <h3 class="text-center">Add Match Box</h3>
+    <form asp-action="AddLunchBox" method="post">
+        <div class="form-group">
+            <label asp-for="Food">Food:</label>
+            <input asp-for="Food" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Drinks">Drink:</label>
+            <input asp-for="Drinks" class="form-control" />
+        </div>
+        <div class="text-center">
+            <button type="submit" asp-action="AddLunchBox" class="btn btn-primary">Add</button>
+            <button asp-action="Index" class="btn btn-secondary">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>

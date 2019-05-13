@@ -1,0 +1,28 @@
+﻿@model EntityFrameWork.Models.Matchbox
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Matchbox</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="p-2">
+    <h3 class="text-center">Add Match Box</h3>
+    <form asp-action="AddMatchBox" method="post">
+        <div class="form-group">
+            <label asp-for="Make">Make:</label>
+            <input asp-for="Make" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Model">Model:</label>
+            <input asp-for="Model" class="form-control" />
+        </div>
+        <div class="text-center">
+            <button type="submit" asp-action="AddMatchBox" class="btn btn-primary">Add</button>
+            <button asp-action="Index" class="btn btn-secondary">Cancel</button>
+        </div>
+    </form>
+</body>
+</html>
